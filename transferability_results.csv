@@ -1,0 +1,17 @@
+Model,Dataset,Top-1 Accuracy,Top-5 Accuracy
+DenseNet-121,Original,70.8,91.2
+DenseNet-121,FGSM,61.6,85.2
+DenseNet-121,PGD,63.8,86.6
+DenseNet-121,Patch,64.0,85.6
+VGG-16,Original,66.8,91.2
+VGG-16,FGSM,55.2,81.6
+VGG-16,PGD,56.6,81.4
+VGG-16,Patch,57.4,81.2
+MobileNetV2,Original,68.2,89.2
+MobileNetV2,FGSM,58.8,82.6
+MobileNetV2,PGD,59.8,84.8
+MobileNetV2,Patch,60.0,82.8
+EfficientNetB0,Original,79.8,97.0
+EfficientNetB0,FGSM,70.2,92.8
+EfficientNetB0,PGD,72.6,93.8
+EfficientNetB0,Patch,71.4,93.6
